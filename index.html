@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="victor.js"></script>
+    <script src="Bullet.js"></script>
+    <script src="main.js"></script>
+<style>
+#myCanvas {
+    width: 90%;
+    height: 25%;
+    border: 1px solid black;
+}
+#canvasContainer{
+  width:100%;
+  height: 25%;
+}
+</style>
+</head>
+<body onload="initialize()">
+
+<br/>
+
+<!--
+<canvas id="myCanvas" onmousedown="FireBullet(event)" onmousemove="redraw(event)" onmouseout="clearCoor()"></canvas>
+-->
+<div id="canvasContainer">
+    <div>
+      <canvas id="myCanvas" onmousedown="FireBullet(event)"></canvas>
+    </div>
+</div>
+<p id="demo"></p>
+<p id="demom"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+
+</body>
+</html>
